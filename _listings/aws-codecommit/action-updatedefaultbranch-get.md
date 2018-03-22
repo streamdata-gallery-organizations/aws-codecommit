@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDefaultBranch&k=1:
+  /?Action=UpdateDefaultBranch:
     get:
       summary: ' Update Default Branch '
       description: Sets or changes the default branch name for the specified repository
