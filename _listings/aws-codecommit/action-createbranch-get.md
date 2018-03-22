@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateBranch&k=1:
+  /?Action=CreateBranch:
     get:
       summary: ' Create Branch '
       description: Creates a new branch in a repository and points the branch to a
