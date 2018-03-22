@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetCommit&k=1:
+  /?Action=GetCommit:
     get:
       summary: ' Get Commit '
       description: Returns information about a commit, including commit message and
