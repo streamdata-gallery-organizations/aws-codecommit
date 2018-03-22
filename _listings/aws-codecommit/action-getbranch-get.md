@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetBranch&k=1:
+  /?Action=GetBranch:
     get:
       summary: ' Get Branch '
       description: Returns information about a repository branch, including its name
