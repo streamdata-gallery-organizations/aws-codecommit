@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListBranches&k=1:
+  /?Action=ListBranches:
     get:
       summary: ' List Branches '
       description: Gets information about one or more branches in a repository
