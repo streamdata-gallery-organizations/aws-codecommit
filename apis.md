@@ -1,17 +1,34 @@
 ---
-name: Streadata.io API Gallery - AWS CodeCommit
-description: This is a repository of  APIs, self-contained as a Github repository,
-  with HTML and YAML representations of the APIs and their surrounding operations.
-image: http://template.streamdata.gallery/assets/aws-codecommit.png
-created: "2018-02-24"
-modified: "2018-05-20"
-url: http://aws-codecommit.streamdata.gallery/apis.json
+name: AWS CodeCommit
+x-slug: aws-codecommit
+description: AWS CodeCommit is a fully-managed source control service that makes it
+  easy for companies to host secure and highly scalable private Git repositories.
+  CodeCommit eliminates the need to operate your own source control system or worry
+  about scaling its infrastructure. You can use CodeCommit to securely store anything
+  from source code to binaries, and it works seamlessly with your existing Git tools.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+x-kinRank: "10"
+x-alexaRank: ""
+tags: AWS CodeCommit
+created: "2018-05-24"
+modified: "2018-05-24"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
 apis: []
-tags: AWS CodeCommit
-include:
-- name: AWS CodeCommit
-  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/apis.yaml
+x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/codecommit/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/codecommit/faqs/
+- type: x-getting-started
+  url: ttps://aws.amazon.com/codecommit/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/codecommit/pricing/
+- type: x-website
+  url: https://aws.amazon.com/codecommit/
+include: []
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
