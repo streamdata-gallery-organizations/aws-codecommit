@@ -8,10 +8,10 @@ description: AWS CodeCommit is a fully-managed source control service that makes
   from source code to binaries, and it works seamlessly with your existing Git tools.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS CodeCommit
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
 apis:
