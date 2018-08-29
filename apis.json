@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS CodeCommit",
+	"description": "This is a repository of aws codecommit APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-codecommit.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-codecommit.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS CodeCommit",
+			"x-api-slug": "aws-codecommit",
+			"description": "AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure. You can use CodeCommit to securely store anything from source code to binaries, and it works seamlessly with your existing Git tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png",
+			"humanURL": "https://aws.amazon.com/codecommit/",
+			"baseURL": ":///",
+			"tags": "AWS CodeCommit",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS CodeCommit",
+	"include": [
+		{
+			"name": "AWS CodeCommit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/apis.yaml"
+		}
+	]
+}

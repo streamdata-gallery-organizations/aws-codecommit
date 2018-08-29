@@ -10,181 +10,186 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: AWS CodeCommit
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CodeCommit API Batch Get Repositories
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Batch Get Repositories
+  x-api-slug: actionbatchgetrepositories-get
   description: Returns information about one or more repositories.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=BatchGetRepositories
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionbatchgetrepositories-get-openapi.md
-- name: AWS CodeCommit API Create Branch
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Create Branch
+  x-api-slug: actioncreatebranch-get
   description: Creates a new branch in a repository and points the branch to a commit.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=CreateBranch
-  tags: Branch
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actioncreatebranch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actioncreatebranch-get-openapi.md
-- name: AWS CodeCommit API Create Repository
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Create Repository
+  x-api-slug: actioncreaterepository-get
   description: Creates a new, empty repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=CreateRepository
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actioncreaterepository-get-openapi.md
-- name: AWS CodeCommit API Delete Repository
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Delete Repository
+  x-api-slug: actiondeleterepository-get
   description: Deletes a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=DeleteRepository
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actiondeleterepository-get-openapi.md
-- name: AWS CodeCommit API Get Branch
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Get Branch
+  x-api-slug: actiongetbranch-get
   description: Returns information about a repository branch, including its name and
     the last commit ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=GetBranch
-  tags: Branches
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actiongetbranch-get-openapi.md
-- name: AWS CodeCommit API Get Commit
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Get Commit
+  x-api-slug: actiongetcommit-get
   description: Returns information about a commit, including commit message and committer
     information.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=GetCommit
-  tags: Commits
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actiongetcommit-get-openapi.md
-- name: AWS CodeCommit API Get Repository
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Get Repository
+  x-api-slug: actiongetrepository-get
   description: Returns information about a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=GetRepository
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actiongetrepository-get-openapi.md
-- name: AWS CodeCommit API Get Repository Triggers
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Get Repository Triggers
+  x-api-slug: actiongetrepositorytriggers-get
   description: Gets information about triggers configured for a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=GetRepositoryTriggers
-  tags: Repository Triggers
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actiongetrepositorytriggers-get-openapi.md
-- name: AWS CodeCommit API List Branches
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - List Branches
+  x-api-slug: actionlistbranches-get
   description: Gets information about one or more branches in a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=ListBranches
-  tags: Branches
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionlistbranches-get-openapi.md
-- name: AWS CodeCommit API List Repositories
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - List Repositories
+  x-api-slug: actionlistrepositories-get
   description: Gets information about one or more repositories.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=ListRepositories
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionlistrepositories-get-openapi.md
-- name: AWS CodeCommit API Put Repository Triggers
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Put Repository Triggers
+  x-api-slug: actionputrepositorytriggers-get
   description: Replaces all triggers for a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=PutRepositoryTriggers
-  tags: Repository Triggers
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionputrepositorytriggers-get-openapi.md
-- name: AWS CodeCommit API Test Repository Triggers
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Test Repository Triggers
+  x-api-slug: actiontestrepositorytriggers-get
   description: Tests the functionality of repository triggers by sending information
     to the trigger target.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=TestRepositoryTriggers
-  tags: Repository Triggers
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actiontestrepositorytriggers-get-openapi.md
-- name: AWS CodeCommit API Update Default Branch
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Update Default Branch
+  x-api-slug: actionupdatedefaultbranch-get
   description: Sets or changes the default branch name for the specified repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=UpdateDefaultBranch
-  tags: Branches
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionupdatedefaultbranch-get-openapi.md
-- name: AWS CodeCommit API Update Repository Description
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Update Repository Description
+  x-api-slug: actionupdaterepositorydescription-get
   description: Sets or changes the comment or description for a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=UpdateRepositoryDescription
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionupdaterepositorydescription-get-openapi.md
-- name: AWS CodeCommit API Update Repository Name
-  x-api-slug: aws-codecommit-api
+- name: AWS CodeCommit API - Update Repository Name
+  x-api-slug: actionupdaterepositoryname-get
   description: Renames a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
-  baseURL: ://///?Action=UpdateRepositoryName
-  tags: Repositories
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/actionupdaterepositoryname-get-openapi.md
-- name: AWS CodeCommit API
-  x-api-slug: aws-codecommit-api
-  description: AWS CodeCommit is a fully-managed source control service that makes
-    it easy for companies to host secure and highly scalable private Git repositories.
-    CodeCommit eliminates the need to operate your own source control system or worry
-    about scaling its infrastructure. You can use CodeCommit to securely store anything
-    from source code to binaries, and it works seamlessly with your existing Git tools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
-  humanURL: https://aws.amazon.com/codecommit/
-  baseURL: :///
-  tags: AWS CodeCommit
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codecommit/master/_listings/aws-codecommit/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.codebuild.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.codecommit.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
 - type: x-documentation
